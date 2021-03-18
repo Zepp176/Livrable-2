@@ -1,0 +1,129 @@
+
+##############################################################
+#	file4.gen 18/03/2021 11:24:35    errors
+##############################################################
+
+
+ Warning (error_data): useless process for this multibody model !
+
+
+##############################################################
+#	file6.gen 18/03/2021 11:24:35    errors
+##############################################################
+
+
+ Warning (error_data): useless process for this multibody model !
+
+
+##############################################################
+#	file3.gen 18/03/2021 11:24:35    errors
+##############################################################
+
+
+ Warning (error_data): useless process for this multibody model !
+
+
+##############################################################
+#	file2.gen 18/03/2021 11:24:35    errors
+##############################################################
+
+
+	Elimination of the superfluous equations.....................
+
+
+		Maximum simultaneous symbolic expressions :  36394
+
+		Maximum number of allocated Kbytes :  1705
+
+
+	The symbolic equations have been generated 
+	in the directory: /usr/local/robotran/users/LFSAB1504/upload/
+
+
+ 		*** Generation symbolique reussie ! ***
+
+
+
+
+##############################################################
+#	file5.gen 18/03/2021 11:24:35    errors
+##############################################################
+
+
+	Elimination of the superfluous equations.....................
+
+
+		Maximum simultaneous symbolic expressions :  8164
+
+		Maximum number of allocated Kbytes :  382
+
+
+	The symbolic equations have been generated 
+	in the directory: /usr/local/robotran/users/LFSAB1504/upload/
+
+
+ 		*** Generation symbolique reussie ! ***
+
+
+
+
+##############################################################
+#	file0.gen 18/03/2021 11:24:35    errors
+##############################################################
+
+	Computation of the kinematics........
+
+	Computation of the dynamics.....................
+
+		Joints   66  65  64  63  62  61  60  59  58  57
+
+		    -->  56  55  54  53  52  51  50  49  48  47
+
+		    -->  46  45  44  43  42  41  40  39  38  37
+
+		    -->  36  35  34  33  32  31  30  29  28  27
+
+		    -->  26  25  24  23  22  21  20  19  18  17
+
+		    -->  16  15  14  13  12  11  10   9   8   7
+
+		    -->   6   5   4   3   2   1
+
+	Elimination of the superfluous equations.....................
+
+
+		Maximum simultaneous symbolic expressions :  8625
+
+		Maximum number of allocated Kbytes :  404
+
+
+	The symbolic equations have been generated 
+	in the directory: /usr/local/robotran/users/LFSAB1504/upload/
+
+
+ 		*** Generation symbolique reussie ! ***
+
+
+
+
+##############################################################
+#	file1b.gen 18/03/2021 11:24:35    errors
+##############################################################
+
+
+	Elimination of the superfluous equations.....................
+
+
+		Maximum simultaneous symbolic expressions :  14416
+
+		Maximum number of allocated Kbytes :  675
+
+
+	The symbolic equations have been generated 
+	in the directory: /usr/local/robotran/users/LFSAB1504/upload/
+
+
+ 		*** Generation symbolique reussie ! ***
+
+
+
