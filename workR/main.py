@@ -34,6 +34,7 @@ except:
 import os   
 import mbs_rwt as rwt
 import mbs_rwc as rwc
+from defauts_voie import my_defect_position, my_defect_jac, my_defect_jdqd
 
 # creating trajectory
 horiz_def = [{'geom': 'li', 'L': 72.},
@@ -95,6 +96,8 @@ track.set_followers([mbs_data.joint_id['R1_Track1'],
                      mbs_data.joint_id['T1_Track_curv4']],1)
 
 track.set_user_model(mbs_data, 'addons', 'rwt')
+
+track.set_defect('vertical', my_defect_position, my_defect_jac, my_defect_jdqd)
 
 last_used_constraint = 6 * track.nb_followers
 
@@ -160,7 +163,7 @@ fig = plt.figure(num='Example of plot')
 axis = fig.gca()
 
 # Plotting data's
-axis.plot(results.q[:, 0], results.q[:, 1], label='q[1]')
+axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T3_Track1']], label='q[1]')
 
 # Figure enhancement
 axis.grid(True)
