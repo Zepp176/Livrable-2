@@ -36,23 +36,28 @@ import mbs_rwt as rwt
 import mbs_rwc as rwc
 from defauts_voie import defect_position, defect_jac, defect_jdqd
 
-voie = 1
+voie = 2
 
 
 # creating trajectory
 if voie == 1: # ligne droite avec défauts
+    print("ligne droite avec défauts")
     horiz_def = [{'geom': 'li', 'L': 200.}]
     cant_def_ideal = [{'L': 200., 'cant_0':0.0, 'cant_f': 0.0}]
     
 elif voie == 2: # courbe parfaite
+    print("courbe parfaite")
     horiz_def = [{'geom': 'li', 'L': 40.},
-                 {'geom': 'cl', 'L': 40.},
-                 {'geom': 'cu', 'L': 120., 'R': 5000.}]
+                 {'geom': 'cl', 'L': 20.},
+                 {'geom': 'cu', 'L': 120., 'R': 5000.},
+                 {'geom': 'cl', 'L':20.}]
     cant_def_ideal = [{'L': 40., 'cant_0':0.0, 'cant_f': 0.0},
-                      {'L': 40., 'cant_f': 0.1},
-                      {'L': 120., 'cant_f': 0.1}]
+                      {'L': 20., 'cant_f': 0.0015},
+                      {'L': 120., 'cant_f': 0.0015},
+                      {'L':20., 'cant_f': 0.}]
     
 elif voie == 3: # ligne droite parfaite
+    print("ligne droite parfaite")
     horiz_def = [{'geom': 'li', 'L': 200.}]
     cant_def_ideal = [{'L': 200., 'cant_0':0.0, 'cant_f': 0.0}]
 
@@ -169,13 +174,23 @@ except Exception:
 if voie == 1:
     fig = plt.figure()
     axis = fig.gca()
-    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T3_Caisse']], label='q[1]')
+    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T2_Caisse']], label='q[1]')
     axis.grid(True)
     axis.set_xlim(left=mbs_dirdyn.get_options('t0'), right=mbs_dirdyn.get_options('tf'))
     axis.set_xlabel('temps [s]')
-    axis.set_ylabel('hauteur de la caisse (T3) [m]')
+    axis.set_ylabel('mouvement latéral de la caisse (T2) [m]')
     axis.set_title('Voie rectiligne avec défaut de dressage')
-    plt.savefig("T3_caisse_rect_def.svg", format='svg')
+    plt.savefig("T2_caisse_rect_def.svg", format='svg')
+    
+    fig = plt.figure()
+    axis = fig.gca()
+    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T2_Essieu1']], label='q[1]')
+    axis.grid(True)
+    axis.set_xlim(left=mbs_dirdyn.get_options('t0'), right=mbs_dirdyn.get_options('tf'))
+    axis.set_xlabel('temps [s]')
+    axis.set_ylabel('mouvement latéral d\'un essieu (T2) [m]')
+    axis.set_title('Voie rectiligne avec défaut de dressage')
+    plt.savefig("T2_essieu_rect_def.svg", format='svg')
     
     fig = plt.figure()
     axis = fig.gca()
@@ -190,13 +205,13 @@ if voie == 1:
 if voie == 2:
     fig = plt.figure()
     axis = fig.gca()
-    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T3_Caisse']], label='q[1]')
+    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T2_Caisse']], label='q[1]')
     axis.grid(True)
     axis.set_xlim(left=mbs_dirdyn.get_options('t0'), right=mbs_dirdyn.get_options('tf'))
     axis.set_xlabel('temps [s]')
-    axis.set_ylabel('hauteur de la caisse (T3) [m]')
+    axis.set_ylabel('mouvement latéral de la caisse (T2) [m]')
     axis.set_title('Voie courbe parfaite')
-    plt.savefig("T3_caisse_curv_parf.svg", format='svg')
+    plt.savefig("T2_caisse_curv_parf.svg", format='svg')
     
     fig = plt.figure()
     axis = fig.gca()
@@ -207,17 +222,28 @@ if voie == 2:
     axis.set_ylabel('angle de roulis (R1) [rad]')
     axis.set_title('Voie courbe parfaite')
     plt.savefig("R1_caisse_curv_parf.svg", format='svg')
+    
+    fig = plt.figure()
+    axis = fig.gca()
+    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T2_Track1']], label='q[1]')
+    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T2_Track3']], label='1qdsq')
+    axis.grid(True)
+    axis.set_xlim(left=mbs_dirdyn.get_options('t0'), right=mbs_dirdyn.get_options('tf'))
+    axis.set_xlabel('temps [s]')
+    axis.set_ylabel('angle de roulis (R1) [rad]')
+    axis.set_title('tracks')
+    plt.savefig("tracks.svg", format='svg')
 
 if voie == 3:
     fig = plt.figure()
     axis = fig.gca()
-    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T3_Caisse']], label='q[1]')
+    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T2_Caisse']], label='q[1]')
     axis.grid(True)
     axis.set_xlim(left=mbs_dirdyn.get_options('t0'), right=mbs_dirdyn.get_options('tf'))
     axis.set_xlabel('temps [s]')
-    axis.set_ylabel('hauteur de la caisse (T3) [m]')
+    axis.set_ylabel('mouvement latéral de la caisse (T2) [m]')
     axis.set_title('Voie rectiligne parfaite')
-    plt.savefig("T3_caisse_rect_parf.svg", format='svg')
+    plt.savefig("T2_caisse_rect_parf.svg", format='svg')
     
     fig = plt.figure()
     axis = fig.gca()
