@@ -70,6 +70,15 @@ def user_LinkForces(Z, Zd, mbs_data, tsim, identity):
     L34 = mbs_data.link_id['DYL2']
     L35 = mbs_data.link_id['DYR1']
     L36 = mbs_data.link_id['DYR2']
+    L37 = mbs_data.link_id['CKXL1']
+    L38 = mbs_data.link_id['CKXR1']
+    L39 = mbs_data.link_id['CKXL2']
+    L40 = mbs_data.link_id['CKXR2']
+    L41 = mbs_data.link_id['CKYL1']
+    L42 = mbs_data.link_id['CKYR1']
+    L43 = mbs_data.link_id['CKYL2']
+    L44 = mbs_data.link_id['CKYR2']
+    
     if identity in [L1, L2, L3, L4, L5, L6, L7, L8]:
        K  = mbs_data.user_model['kx1']['k'] *1000
        C  = mbs_data.user_model['kx1']['c'] *1000
@@ -90,20 +99,26 @@ def user_LinkForces(Z, Zd, mbs_data, tsim, identity):
     
     if identity in [L25, L26, L27, L28]:
        K  = mbs_data.user_model['kz2']['k'] *1000
-       C  = mbs_data.user_model['kz2']['c'] *1000
+       #C  = mbs_data.user_model['kz2']['c'] *1000
        Z0 = mbs_data.user_model['kz2']['l'] /1000
-       Flink = K*(Z-Z0)+C*Zd-8000*9.81
+       Flink = K*(Z-Z0)-8000*9.81
        
     if identity in [L29, L30, L31, L32]:
-       K  = mbs_data.user_model['dz2']['k'] *1000
-       C  = mbs_data.user_model['dz2']['c'] *1000
-       Z0 = mbs_data.user_model['dz2']['l'] /1000
-       Flink = K*(Z-Z0)+C*Zd-8000*9.81
+       C  = mbs_data.user_model['dz2']['c'] *1000 
+       Flink = C*Zd
     
     if identity in [L33, L34, L35, L36]:
-       K  = mbs_data.user_model['dy2']['k'] *1000
        C  = mbs_data.user_model['dy2']['c'] *1000
-       Z0 = mbs_data.user_model['dy2']['l'] /1000
-       Flink = K*(Z-Z0)+C*Zd
+       Flink = C*Zd
+       
+    if identity in [L37, L38, L39, L40]:
+       K  = mbs_data.user_model['kx2']['k'] *1000
+       Z0 = mbs_data.user_model['kx2']['l'] /1000
+       Flink = K*(Z-Z0)
 
+    if identity in [L41, L42, L43, L44]:
+       K  = mbs_data.user_model['ky2']['k'] *1000
+       Z0 = mbs_data.user_model['ky2']['l'] /1000
+       Flink = K*(Z-Z0)
+       
     return Flink
