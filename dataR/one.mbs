@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <mbsDescR7>
   <mbsname>one</mbsname>
   <mbsyspad_version>1.16.0</mbsyspad_version>
   <base>
-    <!--this is the base body-->
+    
     <gravity>
       <coordinates>
         <x>0.0</x>
@@ -175,312 +175,11 @@
       <x3D>
         <x3D_points />
         <x3D_lines />
-        <x3D_shapes>
-          <inline>
-            <name>trajectoire1</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire1.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire2</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire2.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire3</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire3.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire4</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire4.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire5</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire5.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire6</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire6.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire7</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire7.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire8</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire8.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire9</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire9.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire10</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire10.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire11</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire11.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire12</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire12.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire13</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire13.wrl</url>
-          </inline>
-        </x3D_shapes>
-      </x3D>
+        <x3D_shapes><inline><name>trajectoire1</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\vbelp\OneDrive - UCL\cours\Q6\Projet 4\Livrable-2\animationR\vrml\trajectoire1.wrl</url></inline><inline><name>trajectoire2</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\vbelp\OneDrive - UCL\cours\Q6\Projet 4\Livrable-2\animationR\vrml\trajectoire2.wrl</url></inline><inline><name>trajectoire3</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\vbelp\OneDrive - UCL\cours\Q6\Projet 4\Livrable-2\animationR\vrml\trajectoire3.wrl</url></inline><inline><name>trajectoire4</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\vbelp\OneDrive - UCL\cours\Q6\Projet 4\Livrable-2\animationR\vrml\trajectoire4.wrl</url></inline><inline><name>trajectoire5</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\vbelp\OneDrive - UCL\cours\Q6\Projet 4\Livrable-2\animationR\vrml\trajectoire5.wrl</url></inline><inline><name>trajectoire6</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\vbelp\OneDrive - UCL\cours\Q6\Projet 4\Livrable-2\animationR\vrml\trajectoire6.wrl</url></inline><inline><name>trajectoire7</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\vbelp\OneDrive - UCL\cours\Q6\Projet 4\Livrable-2\animationR\vrml\trajectoire7.wrl</url></inline><inline><name>trajectoire8</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\vbelp\OneDrive - UCL\cours\Q6\Projet 4\Livrable-2\animationR\vrml\trajectoire8.wrl</url></inline><inline><name>trajectoire9</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\vbelp\OneDrive - UCL\cours\Q6\Projet 4\Livrable-2\animationR\vrml\trajectoire9.wrl</url></inline><inline><name>trajectoire10</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\vbelp\OneDrive - UCL\cours\Q6\Projet 4\Livrable-2\animationR\vrml\trajectoire10.wrl</url></inline><inline><name>trajectoire11</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\vbelp\OneDrive - UCL\cours\Q6\Projet 4\Livrable-2\animationR\vrml\trajectoire11.wrl</url></inline><inline><name>trajectoire12</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\vbelp\OneDrive - UCL\cours\Q6\Projet 4\Livrable-2\animationR\vrml\trajectoire12.wrl</url></inline><inline><name>trajectoire13</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\vbelp\OneDrive - UCL\cours\Q6\Projet 4\Livrable-2\animationR\vrml\trajectoire13.wrl</url></inline></x3D_shapes></x3D>
     </graphics>
   </base>
   <bodytree>
-    <!--this is the body tree-->
+    
     <body>
       <bodyname>Track_curv4</bodyname>
       <parent>
@@ -3844,7 +3543,7 @@
     </body>
   </bodytree>
   <links>
-    <!--this is the link list-->
+    
     <link>
       <name>KXR4</name>
       <endpoint1>
@@ -4421,7 +4120,7 @@
     </link>
   </links>
   <user_models>
-    <!--this is the userModel list-->
+    
     <user_model>
       <name>kx1</name>
       <parameter>
@@ -4566,11 +4265,11 @@
   </user_models>
   <x3D>
     <background>
-      <!--This is the background properties-->
+      
       <color R="51" G="102" B="204" />
     </background>
     <shapeScaleFactors>
-      <!--This is the scale factors-->
+      
       <frame>0.2</frame>
       <joint>0.3</joint>
       <com>0.3</com>
@@ -4581,7 +4280,7 @@
       <glfwSample>4</glfwSample>
     </opengl>
     <viewpoints>
-      <!--This is the viewpoint list-->
+      
       <viewpoint>
         <name>New_Viewpoint</name>
         <joint>T1_Track_curv4</joint>
@@ -4608,7 +4307,7 @@
       </viewpoint>
     </viewpoints>
     <lights>
-      <!--This is the light list-->
+      
       <directionalLight>
         <name>DefaultLight01</name>
         <joint>base</joint>
@@ -4724,4 +4423,3 @@
     </lights>
   </x3D>
 </mbsDescR7>
-
