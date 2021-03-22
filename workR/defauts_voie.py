@@ -1,6 +1,6 @@
 from math import asin, cos, sin, pi, sqrt
 
-def my_defect_position(traj_coord, s):
+def defect_position(traj_coord, s):
     """Add the perturbation of the defect to the trajectory.
     Here an example of cosine longitudinal level.
     Parameters
@@ -26,16 +26,16 @@ def my_defect_position(traj_coord, s):
     for the given curviline value.
     """
     
-    if s < 100. or s > 200.:
+    if s < 30.:
         return
     
-    traj_coord[3] += 0.01 * cos(pi * (s - 100.) / 5.) - 0.01
-    dt3_ds = -2e-3 * pi * sin(pi * (s - 100.) / 5.)
-    traj_coord[5] += -asin(dt3_ds)
+    traj_coord[2] += 0.01 * cos(pi * (s - 30.) / 5.) - 0.01
+    dt2_ds = -2e-3 * pi * sin(pi * (s - 30.) / 5.)
+    traj_coord[4] += asin(dt2_ds)
 
 
 
-def my_defect_jac(mbs_data, s, jac, id_h, id_q_s):
+def defect_jac(mbs_data, s, jac, id_h, id_q_s):
     """Add the perturbation of the defect to the constraint Jacobian.
     Here an example of cosine longitudinal level.
     Parameters
@@ -58,24 +58,24 @@ def my_defect_jac(mbs_data, s, jac, id_h, id_q_s):
     None.
     """
     
-    if s < 100. or s > 200.:
+    if s < 30.:
         return
     
-    f_sin = sin(pi * (s - 100.) / 5.)
-    f_cos = cos(pi * (s - 100.) / 5.)
+    f_sin = sin(pi * (s - 30.) / 5.)
+    f_cos = cos(pi * (s - 30.) / 5.)
     
-    dt3_ds = -2e-3 * pi * f_sin
-    jac[id_h + 2, id_q_s] += -dt3_ds
+    dt2_ds = -2e-3 * pi * f_sin
+    jac[id_h + 1, id_q_s] -= dt2_ds
     
-    ddt3_dsds = -0.01 * pi * pi * f_cos / 25.
-    dr2_ds_den = sqrt(1. - dt3_ds * dt3_ds)
+    ddt2_dsds = -0.01 * pi * pi * f_cos / 25.
+    dr3_ds_den = sqrt(1. - dt2_ds * dt2_ds)
     
-    dr2_ds = -ddt3_dsds / dr2_ds_den
-    jac[id_h + 4, id_q_s] += -dr2_ds
+    dr3_ds = ddt2_dsds / dr3_ds_den
+    jac[id_h + 3, id_q_s] += -dr3_ds
 
 
 
-def my_defect_jdqd(mbs_data, s, jdqd, id_h, id_q_s):
+def defect_jdqd(mbs_data, s, jdqd, id_h, id_q_s):
     """Add the perturbation of the defect to the constraint jdqd term.
     Here an example of cosine longitudinal level.
     Parameters
@@ -96,24 +96,24 @@ def my_defect_jdqd(mbs_data, s, jdqd, id_h, id_q_s):
     None.
     """
     
-    if s < 100. or s > 200.:
+    if s < 30.:
         return
     
     sd = mbs_data.qd[id_q_s]
-    f_sin = sin(pi * (s - 100.) / 5.)
-    f_cos = cos(pi * (s - 100.) / 5.)
+    f_sin = sin(pi * (s - 30.) / 5.)
+    f_cos = cos(pi * (s - 30.) / 5.)
     
-    ddt3_dsds = -4e-4 * pi * pi * f_cos
+    ddt2_dsds = -4e-4 * pi * pi * f_cos
     
-    ddt3_dsdt = ddt3_dsds * sd
-    jdqd[id_h + 2] += -ddt3_dsdt * sd
+    ddt2_dsdt = ddt2_dsds * sd
+    jdqd[id_h + 2] += -ddt2_dsdt * sd
     
-    dt3_ds = -2e-3 * pi * f_sin
-    dddt3_dsdsdt = 8e-5 * pi * pi * pi * f_sin * sd
+    dt2_ds = -2e-3 * pi * f_sin
+    dddt2_dsdsdt = 8e-5 * pi * pi * pi * f_sin * sd
     
-    ddr2_dsdt_num1 = ddt3_dsds * dt3_ds * ddt3_dsdt
-    ddr2_dsdt_num2 = -(1. - dt3_ds * dt3_ds) * dddt3_dsdsdt
-    ddr2_dsdt_den = (1. - dt3_ds * dt3_ds) * sqrt(1. - dt3_ds * dt3_ds)
+    ddr3_dsdt_num1 = ddt2_dsds * dt2_ds * ddt2_dsdt
+    ddr3_dsdt_num2 = -(1. - dt2_ds * dt2_ds) * dddt2_dsdsdt
+    ddr3_dsdt_den = (1. - dt2_ds * dt2_ds) * sqrt(1. - dt2_ds * dt2_ds)
     
-    ddr2_dsdt = -(ddr2_dsdt_num1 + ddr2_dsdt_num2) / ddr2_dsdt_den
-    jdqd[id_h + 4] += -ddr2_dsdt * sd
+    ddr3_dsdt = -(ddr3_dsdt_num1 + ddr3_dsdt_num2) / ddr3_dsdt_den
+    jdqd[id_h + 4] += -ddr3_dsdt * sd
