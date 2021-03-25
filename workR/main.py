@@ -1,4 +1,4 @@
-    #!/usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Script to run a direct dynamic analysis on a multibody system.
 
@@ -24,12 +24,8 @@ Contact : info@robotran.be
 # %%============================================================================
 # Packages loading
 # =============================================================================
-try:
-    import MBsysPy as Robotran
-except:
-    raise ImportError("MBsysPy not found/installed."
-                      "See: https://www.robotran.eu/download/how-to-install/"
-                      )
+
+import MBsysPy as Robotran
 
 import os   
 import mbs_rwt as rwt
@@ -114,7 +110,6 @@ if voie == 1:
 
 last_used_constraint = 6 * track.nb_followers
 
-
 #configuration contact
 config = {'nb_wheelsets': 4,
           'gauge': 1.435 + 0.072,
@@ -146,7 +141,7 @@ rwc_main.set_user_model(mbs_data, 'addons', 'rwc')
 
 last_used_constraint += 2 * rwc_main.nb_wheelsets
 
-mbs_data.set_nb_userc(last_used_constraint)
+mbs_data.set_nb_userc(last_used_constraint+6)
 # %%===========================================================================
 # Partitionning
 # =============================================================================
@@ -174,7 +169,7 @@ except Exception:
 if voie == 1:
     fig = plt.figure()
     axis = fig.gca()
-    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T2_Caisse']], label='q[1]')
+    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T2_caisse1']]+results.q[:,mbs_data.joint_id['T2_chassis1']], label='q[1]')
     axis.grid(True)
     axis.set_xlim(left=mbs_dirdyn.get_options('t0'), right=mbs_dirdyn.get_options('tf'))
     axis.set_xlabel('temps [s]')
@@ -194,7 +189,7 @@ if voie == 1:
     
     fig = plt.figure()
     axis = fig.gca()
-    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['R1_Caisse']], label='q[1]')
+    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['R1_caisse1']]+results.q[:,mbs_data.joint_id['R1_chassis1']], label='q[1]')
     axis.grid(True)
     axis.set_xlim(left=mbs_dirdyn.get_options('t0'), right=mbs_dirdyn.get_options('tf'))
     axis.set_xlabel('temps [s]')
@@ -205,7 +200,7 @@ if voie == 1:
 if voie == 2:
     fig = plt.figure()
     axis = fig.gca()
-    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T2_Caisse']], label='q[1]')
+    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T2_caisse1']]+results.q[:,mbs_data.joint_id['T2_chassis1']], label='q[1]')
     axis.grid(True)
     axis.set_xlim(left=mbs_dirdyn.get_options('t0'), right=mbs_dirdyn.get_options('tf'))
     axis.set_xlabel('temps [s]')
@@ -215,7 +210,7 @@ if voie == 2:
     
     fig = plt.figure()
     axis = fig.gca()
-    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['R1_Caisse']], label='q[1]')
+    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['R1_caisse1']]+results.q[:,mbs_data.joint_id['R1_chassis1']], label='q[1]')
     axis.grid(True)
     axis.set_xlim(left=mbs_dirdyn.get_options('t0'), right=mbs_dirdyn.get_options('tf'))
     axis.set_xlabel('temps [s]')
@@ -237,7 +232,7 @@ if voie == 2:
 if voie == 3:
     fig = plt.figure()
     axis = fig.gca()
-    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T2_Caisse']], label='q[1]')
+    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T2_caisse1']]+results.q[:,mbs_data.joint_id['T2_chassis1']], label='q[1]')
     axis.grid(True)
     axis.set_xlim(left=mbs_dirdyn.get_options('t0'), right=mbs_dirdyn.get_options('tf'))
     axis.set_xlabel('temps [s]')
@@ -247,7 +242,7 @@ if voie == 3:
     
     fig = plt.figure()
     axis = fig.gca()
-    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['R1_Caisse']], label='q[1]')
+    axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T2_caisse1']]+results.q[:,mbs_data.joint_id['T2_chassis1']], label='q[1]')
     axis.grid(True)
     axis.set_xlim(left=mbs_dirdyn.get_options('t0'), right=mbs_dirdyn.get_options('tf'))
     axis.set_xlabel('temps [s]')
