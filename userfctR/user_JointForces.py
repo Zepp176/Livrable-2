@@ -28,8 +28,13 @@ def user_JointForces(mbs_data, tsim):
     """
     # cleaning previous forces value
     mbs_data.Qq[1:] = 0.
-
-
+    K = 940000  #Nm/rad
+    
+    id1 = mbs_data.joint_id["R1_caisse1"]
+    id2 = mbs_data.joint_id["R1_caisse2"]
+    
+    mbs_data.Qq[id1] = -K * mbs_data.q[id1]
+    mbs_data.Qq[id2] = -K * mbs_data.q[id2]
     # Example: damping in joint number 5
     # D = 0.5 # N/(m/s)
     # mbs_data.Qq[5] = -D * mbs_data.qd[5]

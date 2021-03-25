@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <mbsDescR7>
   <mbsname>one</mbsname>
   <mbsyspad_version>1.16.0</mbsyspad_version>
   <base>
-    <!--this is the base body-->
+    
     <gravity>
       <coordinates>
         <x>0.0</x>
@@ -114,23 +114,6 @@
         <x3D />
       </graphics>
     </point>
-    <point>
-      <pointname>Point_6</pointname>
-      <coordinates>
-        <x>10.78</x>
-        <y>0.0</y>
-        <z>0.0</z>
-      </coordinates>
-      <graphics>
-        <x2D>
-          <position>
-            <x>819.0</x>
-            <y>651.0</y>
-          </position>
-        </x2D>
-        <x3D />
-      </graphics>
-    </point>
     <graphics>
       <x2D>
         <position>
@@ -175,312 +158,11 @@
       <x3D>
         <x3D_points />
         <x3D_lines />
-        <x3D_shapes>
-          <inline>
-            <name>trajectoire1</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire1.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire2</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire2.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire3</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire3.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire4</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire4.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire5</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire5.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire6</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire6.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire7</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire7.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire8</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire8.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire9</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire9.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire10</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire10.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire11</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire11.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire12</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire12.wrl</url>
-          </inline>
-          <inline>
-            <name>trajectoire13</name>
-            <position>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </position>
-            <scale>
-              <x>1.0</x>
-              <y>1.0</y>
-              <z>1.0</z>
-            </scale>
-            <rotation>
-              <x>0.0</x>
-              <y>0.0</y>
-              <z>0.0</z>
-            </rotation>
-            <color R="0" G="0" B="0" />
-            <specularColor R="255" G="255" B="255" />
-            <shininess>250.0</shininess>
-            <transparency>0.0</transparency>
-            <url>PRJPATH\animationR\vrml\trajectoire13.wrl</url>
-          </inline>
-        </x3D_shapes>
-      </x3D>
+        <x3D_shapes><inline><name>trajectoire1</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\Pierric\Documents\BAC3\git\Livrable-2\animationR\vrml\trajectoire1.wrl</url></inline><inline><name>trajectoire2</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\Pierric\Documents\BAC3\git\Livrable-2\animationR\vrml\trajectoire2.wrl</url></inline><inline><name>trajectoire3</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\Pierric\Documents\BAC3\git\Livrable-2\animationR\vrml\trajectoire3.wrl</url></inline><inline><name>trajectoire4</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\Pierric\Documents\BAC3\git\Livrable-2\animationR\vrml\trajectoire4.wrl</url></inline><inline><name>trajectoire5</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\Pierric\Documents\BAC3\git\Livrable-2\animationR\vrml\trajectoire5.wrl</url></inline><inline><name>trajectoire6</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\Pierric\Documents\BAC3\git\Livrable-2\animationR\vrml\trajectoire6.wrl</url></inline><inline><name>trajectoire7</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\Pierric\Documents\BAC3\git\Livrable-2\animationR\vrml\trajectoire7.wrl</url></inline><inline><name>trajectoire8</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\Pierric\Documents\BAC3\git\Livrable-2\animationR\vrml\trajectoire8.wrl</url></inline><inline><name>trajectoire9</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\Pierric\Documents\BAC3\git\Livrable-2\animationR\vrml\trajectoire9.wrl</url></inline><inline><name>trajectoire10</name><position><x>0.0</x><y>0.0</y><z>0.0</z></position><scale><x>1.0</x><y>1.0</y><z>1.0</z></scale><rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation><color R="0" G="0" B="0" /><specularColor R="255" G="255" B="255" /><shininess>250.0</shininess><transparency>0.0</transparency><url>C:\Users\Pierric\Documents\BAC3\git\Livrable-2\animationR\vrml\trajectoire10.wrl</url></inline></x3D_shapes></x3D>
     </graphics>
   </base>
   <bodytree>
-    <!--this is the body tree-->
+    
     <body>
       <bodyname>Track_curv4</bodyname>
       <parent>
@@ -2552,7 +2234,7 @@
           <x2D>
             <position>
               <x>290.0</x>
-              <y>206.0</y>
+              <y>207.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2569,7 +2251,7 @@
           <x2D>
             <position>
               <x>434.0</x>
-              <y>205.0</y>
+              <y>206.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2586,7 +2268,7 @@
           <x2D>
             <position>
               <x>136.0</x>
-              <y>178.0</y>
+              <y>179.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2603,7 +2285,7 @@
           <x2D>
             <position>
               <x>89.0</x>
-              <y>157.0</y>
+              <y>158.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2620,7 +2302,7 @@
           <x2D>
             <position>
               <x>466.0</x>
-              <y>203.0</y>
+              <y>204.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2637,7 +2319,7 @@
           <x2D>
             <position>
               <x>497.0</x>
-              <y>196.0</y>
+              <y>197.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2654,7 +2336,7 @@
           <x2D>
             <position>
               <x>242.0</x>
-              <y>204.0</y>
+              <y>205.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2671,7 +2353,7 @@
           <x2D>
             <position>
               <x>199.0</x>
-              <y>197.0</y>
+              <y>198.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2688,7 +2370,7 @@
           <x2D>
             <position>
               <x>165.0</x>
-              <y>193.0</y>
+              <y>194.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2705,7 +2387,7 @@
           <x2D>
             <position>
               <x>533.0</x>
-              <y>182.0</y>
+              <y>183.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2722,7 +2404,7 @@
           <x2D>
             <position>
               <x>567.0</x>
-              <y>177.0</y>
+              <y>178.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2739,7 +2421,7 @@
           <x2D>
             <position>
               <x>607.0</x>
-              <y>160.0</y>
+              <y>161.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2756,7 +2438,7 @@
           <x2D>
             <position>
               <x>321.0</x>
-              <y>118.0</y>
+              <y>119.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2773,7 +2455,7 @@
           <x2D>
             <position>
               <x>359.0</x>
-              <y>115.0</y>
+              <y>116.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2790,7 +2472,7 @@
           <x2D>
             <position>
               <x>592.0</x>
-              <y>131.0</y>
+              <y>132.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2807,7 +2489,7 @@
           <x2D>
             <position>
               <x>559.0</x>
-              <y>119.0</y>
+              <y>120.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2824,7 +2506,7 @@
           <x2D>
             <position>
               <x>287.0</x>
-              <y>124.0</y>
+              <y>125.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2841,7 +2523,7 @@
           <x2D>
             <position>
               <x>198.0</x>
-              <y>122.0</y>
+              <y>123.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2858,7 +2540,7 @@
           <x2D>
             <position>
               <x>399.0</x>
-              <y>115.0</y>
+              <y>116.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2875,7 +2557,7 @@
           <x2D>
             <position>
               <x>428.0</x>
-              <y>119.0</y>
+              <y>120.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2892,7 +2574,7 @@
           <x2D>
             <position>
               <x>459.0</x>
-              <y>120.0</y>
+              <y>121.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2909,7 +2591,7 @@
           <x2D>
             <position>
               <x>489.0</x>
-              <y>117.0</y>
+              <y>118.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2919,7 +2601,7 @@
         <x2D>
           <position>
             <x>-278.0</x>
-            <y>-58.0</y>
+            <y>-57.0</y>
           </position>
           <name_pos>
             <x>0.0</x>
@@ -2933,35 +2615,35 @@
           <control_points>
             <control_point>
               <x>-231.0</x>
-              <y>209.0</y>
+              <y>210.0</y>
             </control_point>
             <control_point>
               <x>-278.0</x>
-              <y>209.0</y>
+              <y>210.0</y>
             </control_point>
             <control_point>
               <x>-278.0</x>
-              <y>-58.0</y>
+              <y>-57.0</y>
             </control_point>
             <control_point>
               <x>318.0</x>
-              <y>-58.0</y>
+              <y>-57.0</y>
             </control_point>
             <control_point>
               <x>318.0</x>
-              <y>212.0</y>
+              <y>213.0</y>
             </control_point>
             <control_point>
               <x>265.0</x>
-              <y>212.0</y>
+              <y>213.0</y>
             </control_point>
             <control_point>
               <x>265.0</x>
-              <y>52.0</y>
+              <y>53.0</y>
             </control_point>
             <control_point>
               <x>-231.0</x>
-              <y>52.0</y>
+              <y>53.0</y>
             </control_point>
           </control_points>
           <angle>0.0</angle>
@@ -2999,6 +2681,162 @@
               </size>
             </box>
           </x3D_shapes>
+        </x3D>
+      </graphics>
+    </body>
+    <body>
+      <bodyname>caisse</bodyname>
+      <parent>
+        <bodyname>chassis2</bodyname>
+        <pointname>origin</pointname>
+      </parent>
+      <joint>
+        <jointname>T1_caisse2</jointname>
+        <type>T1</type>
+        <nature>dependent</nature>
+        <initialvalue>
+          <q>9.5</q>
+        </initialvalue>
+        <graphics>
+          <x2D>
+            <position>
+              <x>694.0</x>
+              <y>224.0</y>
+            </position>
+          </x2D>
+          <x3D>
+            <x3D_joint />
+            <x3D_frame />
+          </x3D>
+        </graphics>
+      </joint>
+      <joint>
+        <jointname>T2_caisse2</jointname>
+        <type>T2</type>
+        <nature>dependent</nature>
+        <graphics>
+          <x2D>
+            <position>
+              <x>671.0</x>
+              <y>322.0</y>
+            </position>
+          </x2D>
+          <x3D>
+            <x3D_joint />
+            <x3D_frame />
+          </x3D>
+        </graphics>
+      </joint>
+      <joint>
+        <jointname>T3_caisse2</jointname>
+        <type>T3</type>
+        <nature>dependent</nature>
+        <initialvalue>
+          <q>1.2</q>
+        </initialvalue>
+        <graphics>
+          <x2D>
+            <position>
+              <x>744.0</x>
+              <y>379.0</y>
+            </position>
+          </x2D>
+          <x3D>
+            <x3D_joint />
+            <x3D_frame />
+          </x3D>
+        </graphics>
+      </joint>
+      <joint>
+        <jointname>R3_caisse2</jointname>
+        <type>R3</type>
+        <nature>dependent</nature>
+        <graphics>
+          <x2D>
+            <position>
+              <x>733.0</x>
+              <y>308.0</y>
+            </position>
+          </x2D>
+          <x3D>
+            <x3D_joint />
+            <x3D_frame />
+          </x3D>
+        </graphics>
+      </joint>
+      <joint>
+        <jointname>R1_caisse2</jointname>
+        <type>R1</type>
+        <nature>dependent</nature>
+        <graphics>
+          <x2D>
+            <position>
+              <x>753.0</x>
+              <y>229.0</y>
+            </position>
+          </x2D>
+          <x3D>
+            <x3D_joint />
+            <x3D_frame />
+          </x3D>
+        </graphics>
+      </joint>
+      <joint>
+        <jointname>R2_caisse2</jointname>
+        <type>R2</type>
+        <nature>dependent</nature>
+        <graphics>
+          <x2D>
+            <position>
+              <x>756.0</x>
+              <y>146.0</y>
+            </position>
+          </x2D>
+          <x3D>
+            <x3D_joint />
+            <x3D_frame />
+          </x3D>
+        </graphics>
+      </joint>
+      <graphics>
+        <x2D>
+          <position>
+            <x>-13.0</x>
+            <y>-21.0</y>
+          </position>
+          <name_pos>
+            <x>0.0</x>
+            <y>0.0</y>
+          </name_pos>
+          <shape>rectangle</shape>
+          <size>
+            <x>38.0</x>
+            <y>38.0</y>
+          </size>
+          <control_points>
+            <control_point>
+              <x>25.0</x>
+              <y>-21.0</y>
+            </control_point>
+            <control_point>
+              <x>25.0</x>
+              <y>17.0</y>
+            </control_point>
+            <control_point>
+              <x>-13.0</x>
+              <y>17.0</y>
+            </control_point>
+            <control_point>
+              <x>-13.0</x>
+              <y>-21.0</y>
+            </control_point>
+          </control_points>
+          <angle>0.0</angle>
+        </x2D>
+        <x3D>
+          <x3D_com />
+          <x3D_points />
+          <x3D_lines />
         </x3D>
       </graphics>
     </body>
@@ -3586,21 +3424,21 @@
     <body>
       <bodyname>Caisse</bodyname>
       <parent>
-        <bodyname>base</bodyname>
-        <pointname>Point_6</pointname>
+        <bodyname>chassis1</bodyname>
+        <pointname>origin</pointname>
       </parent>
       <joint>
-        <jointname>T1_Caisse</jointname>
+        <jointname>T1_caisse1</jointname>
         <type>T1</type>
         <nature>independent</nature>
         <initialvalue>
-          <qd>10.0</qd>
+          <q>-9.5</q>
         </initialvalue>
         <graphics>
           <x2D>
             <position>
-              <x>836.0</x>
-              <y>584.0</y>
+              <x>961.0</x>
+              <y>276.0</y>
             </position>
           </x2D>
           <x3D>
@@ -3610,14 +3448,14 @@
         </graphics>
       </joint>
       <joint>
-        <jointname>T2_Caisse</jointname>
+        <jointname>T2_caisse1</jointname>
         <type>T2</type>
         <nature>independent</nature>
         <graphics>
           <x2D>
             <position>
-              <x>839.0</x>
-              <y>510.0</y>
+              <x>950.0</x>
+              <y>351.0</y>
             </position>
           </x2D>
           <x3D>
@@ -3627,17 +3465,17 @@
         </graphics>
       </joint>
       <joint>
-        <jointname>T3_Caisse</jointname>
+        <jointname>T3_caisse1</jointname>
         <type>T3</type>
         <nature>independent</nature>
         <initialvalue>
-          <q>1.8</q>
+          <q>1.2</q>
         </initialvalue>
         <graphics>
           <x2D>
             <position>
-              <x>845.0</x>
-              <y>420.0</y>
+              <x>876.0</x>
+              <y>358.0</y>
             </position>
           </x2D>
           <x3D>
@@ -3647,14 +3485,14 @@
         </graphics>
       </joint>
       <joint>
-        <jointname>R3_Caisse</jointname>
+        <jointname>R3_caisse1</jointname>
         <type>R3</type>
         <nature>independent</nature>
         <graphics>
           <x2D>
             <position>
-              <x>843.0</x>
-              <y>356.0</y>
+              <x>858.0</x>
+              <y>274.0</y>
             </position>
           </x2D>
           <x3D>
@@ -3664,14 +3502,14 @@
         </graphics>
       </joint>
       <joint>
-        <jointname>R1_Caisse</jointname>
+        <jointname>R1_caisse1</jointname>
         <type>R1</type>
         <nature>independent</nature>
         <graphics>
           <x2D>
             <position>
-              <x>832.0</x>
-              <y>206.0</y>
+              <x>907.0</x>
+              <y>235.0</y>
             </position>
           </x2D>
           <x3D>
@@ -3681,14 +3519,14 @@
         </graphics>
       </joint>
       <joint>
-        <jointname>R2_Caisse</jointname>
+        <jointname>R2_caisse1</jointname>
         <type>R2</type>
         <nature>independent</nature>
         <graphics>
           <x2D>
             <position>
-              <x>838.0</x>
-              <y>42.0</y>
+              <x>834.0</x>
+              <y>27.0</y>
             </position>
           </x2D>
           <x3D>
@@ -3713,8 +3551,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>293.0</x>
-              <y>52.0</y>
+              <x>289.0</x>
+              <y>37.0</y>
             </position>
           </x2D>
           <x3D />
@@ -3730,8 +3568,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>1021.0</x>
-              <y>66.0</y>
+              <x>1017.0</x>
+              <y>51.0</y>
             </position>
           </x2D>
           <x3D />
@@ -3747,8 +3585,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>1077.0</x>
-              <y>65.0</y>
+              <x>1073.0</x>
+              <y>50.0</y>
             </position>
           </x2D>
           <x3D />
@@ -3764,8 +3602,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>243.0</x>
-              <y>42.0</y>
+              <x>239.0</x>
+              <y>27.0</y>
             </position>
           </x2D>
           <x3D />
@@ -3781,8 +3619,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>1350.0</x>
-              <y>56.0</y>
+              <x>1346.0</x>
+              <y>41.0</y>
             </position>
           </x2D>
           <x3D />
@@ -3798,8 +3636,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>1433.0</x>
-              <y>43.0</y>
+              <x>1429.0</x>
+              <y>28.0</y>
             </position>
           </x2D>
           <x3D />
@@ -3815,8 +3653,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>1475.0</x>
-              <y>32.0</y>
+              <x>1471.0</x>
+              <y>17.0</y>
             </position>
           </x2D>
           <x3D />
@@ -3832,8 +3670,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>1510.0</x>
-              <y>9.0</y>
+              <x>1506.0</x>
+              <y>-6.0</y>
             </position>
           </x2D>
           <x3D />
@@ -3849,8 +3687,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>190.0</x>
-              <y>30.0</y>
+              <x>186.0</x>
+              <y>15.0</y>
             </position>
           </x2D>
           <x3D />
@@ -3866,8 +3704,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>574.0</x>
-              <y>70.0</y>
+              <x>570.0</x>
+              <y>55.0</y>
             </position>
           </x2D>
           <x3D />
@@ -3883,8 +3721,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>538.0</x>
-              <y>63.0</y>
+              <x>534.0</x>
+              <y>48.0</y>
             </position>
           </x2D>
           <x3D />
@@ -3900,8 +3738,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>139.0</x>
-              <y>15.0</y>
+              <x>135.0</x>
+              <y>0.0</y>
             </position>
           </x2D>
           <x3D />
@@ -3917,8 +3755,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>502.0</x>
-              <y>67.0</y>
+              <x>498.0</x>
+              <y>52.0</y>
             </position>
           </x2D>
           <x3D />
@@ -3934,8 +3772,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>436.0</x>
-              <y>70.0</y>
+              <x>432.0</x>
+              <y>55.0</y>
             </position>
           </x2D>
           <x3D />
@@ -3951,8 +3789,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>362.0</x>
-              <y>62.0</y>
+              <x>358.0</x>
+              <y>47.0</y>
             </position>
           </x2D>
           <x3D />
@@ -3968,8 +3806,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>382.0</x>
-              <y>67.0</y>
+              <x>378.0</x>
+              <y>52.0</y>
             </position>
           </x2D>
           <x3D />
@@ -3985,8 +3823,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>1125.0</x>
-              <y>64.0</y>
+              <x>1121.0</x>
+              <y>49.0</y>
             </position>
           </x2D>
           <x3D />
@@ -4002,8 +3840,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>1170.0</x>
-              <y>71.0</y>
+              <x>1166.0</x>
+              <y>56.0</y>
             </position>
           </x2D>
           <x3D />
@@ -4019,8 +3857,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>1221.0</x>
-              <y>69.0</y>
+              <x>1217.0</x>
+              <y>54.0</y>
             </position>
           </x2D>
           <x3D />
@@ -4036,8 +3874,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>1303.0</x>
-              <y>65.0</y>
+              <x>1299.0</x>
+              <y>50.0</y>
             </position>
           </x2D>
           <x3D />
@@ -4115,8 +3953,27 @@
       </graphics>
     </body>
   </bodytree>
+  <cuts>
+    
+    <solid>
+      <name>Cut_0</name>
+      <endpoint1>
+        <bodyname>Caisse</bodyname>
+        <pointname>origin</pointname>
+      </endpoint1>
+      <endpoint2>
+        <bodyname>caisse</bodyname>
+        <pointname>origin</pointname>
+      </endpoint2>
+      <graphics>
+        <x3D>
+          <shown />
+        </x3D>
+      </graphics>
+    </solid>
+  </cuts>
   <links>
-    <!--this is the link list-->
+    
     <link>
       <name>KXR4</name>
       <endpoint1>
@@ -4821,7 +4678,7 @@
     </link>
   </links>
   <user_models>
-    <!--this is the userModel list-->
+    
     <user_model>
       <name>kx1</name>
       <parameter>
@@ -4992,11 +4849,11 @@
   </user_models>
   <x3D>
     <background>
-      <!--This is the background properties-->
+      
       <color R="51" G="102" B="204" />
     </background>
     <shapeScaleFactors>
-      <!--This is the scale factors-->
+      
       <frame>0.2</frame>
       <joint>0.3</joint>
       <com>0.3</com>
@@ -5007,34 +4864,10 @@
       <glfwSample>4</glfwSample>
     </opengl>
     <viewpoints>
-      <!--This is the viewpoint list-->
+      
       <viewpoint>
         <name>New_Viewpoint</name>
-        <joint>T1_Track_curv4</joint>
-        <position>
-          <x>1.0</x>
-          <y>1.0</y>
-          <z>1.0</z>
-        </position>
-        <target>
-          <x>0.0</x>
-          <y>0.0</y>
-          <z>0.0</z>
-        </target>
-        <up>
-          <x>0.0</x>
-          <y>0.0</y>
-          <z>1.0</z>
-        </up>
-        <projection>perspective</projection>
-        <scale>1.0</scale>
-        <fieldOfView>1.0</fieldOfView>
-        <frontClipDst>0.01</frontClipDst>
-        <backClipDst>50.0</backClipDst>
-      </viewpoint>
-      <viewpoint>
-        <name>New_Viewpoint</name>
-        <joint>R3_Caisse</joint>
+        <joint>T2_Essieu2</joint>
         <position>
           <x>1.0</x>
           <y>1.0</y>
@@ -5058,7 +4891,7 @@
       </viewpoint>
     </viewpoints>
     <lights>
-      <!--This is the light list-->
+      
       <directionalLight>
         <name>DefaultLight01</name>
         <joint>base</joint>
@@ -5174,4 +5007,3 @@
     </lights>
   </x3D>
 </mbsDescR7>
-

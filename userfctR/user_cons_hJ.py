@@ -46,4 +46,19 @@ def user_cons_hJ(h, Jac, mbs_data, tsim):
     
     rwt.cons_hJ(mbs_data, h, Jac)
     rwc.compute_constraints(mbs_data, h, Jac)
+    
+    """id1 = mbs_data.joint_id["R1_caisse1"]
+    id2 = mbs_data.joint_id["R1_caisse2"]
+    id3 = mbs_data.joint_id["R1_chassis1"]
+    id4 = mbs_data.joint_id["R1_chassis2"]
+
+   # define the value of the constraint
+    h[1] = (mbs_data.q[id1] + mbs_data.q[id3]) - (mbs_data.q[id2] + mbs_data.q[id4])
+
+   # define the value of the jacobian matrix
+    Jac[1,id1] = 1
+    Jac[1,id2] = -1
+    Jac[1,id3] = 1
+    Jac[1,id4] = -1"""
+   
     return
